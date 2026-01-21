@@ -2,18 +2,18 @@
 This project analyzes crime trends in Philadelphia using real data.
 
 ### Steps: 
-Load data
-View structure
-Data Cleaning & Preprocessing
-Handle Missing Values
+Load data<br>
+View structure<br>
+Data Cleaning & Preprocessing<br>
+Handle Missing Values<br>
 
 ### Visualization
-Crime Trend Over Time
-Most Common Crime Types
-Monthly / Seasonal Crime Patterns
-District-Level Analysis
+Crime Trend Over Time<br>
+Most Common Crime Types<br>
+Monthly / Seasonal Crime Patterns<br>
+District-Level Analysis<br>
 
 ### Key Findings
-- Overall crime decreased after 2010
-- Theft and assault are the most common crimes
-- Crime peaks during summer months
+- Overall crime decreased after 2010.<br>
+- Theft and assault are the most common crimes.<br>
+- Crime peaks during summer months.<br>
