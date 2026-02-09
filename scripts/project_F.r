@@ -4,7 +4,7 @@ library(tidyverse)
 library(lubridate)
 library(ggplot2)
 
-setwd("C:/Users/Sonia Afrose/Documents/RProject/PhiladelphiaProjectbyR/KaggleData/crime.csv")
+setwd("../KaggleData/crime.csv")
 
 #DataDescription
 alldata <- read.csv("crime.csv", sep = ",", header = TRUE)
@@ -21,4 +21,5 @@ crime_clean <- alldata %>%
     Year = year(Dispatch_Date_Time),
     Month = month(Dispatch_Date_Time, label = TRUE)
   ) %>%
+
   filter(Year >= 2006 & Year <= 2016)
